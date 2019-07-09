@@ -22,6 +22,9 @@ export const active = (url, className = 'active') => {
 }
 
 export class ElementRouter extends HTMLElement {
+  static routeTo(url){
+    routeTo(url);
+  }
   constructor() {
     super();
   }
