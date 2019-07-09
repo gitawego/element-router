@@ -1,5 +1,9 @@
 # Element-router
 
+## what's new
+
+* removed shadow dom.
+
 A simple router for webcomponents v1 with no dependencies and a tiny footprint (<1kb).
 
 Download from here, or from npm (element-router). `npm install element-router`.

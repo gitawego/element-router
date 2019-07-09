@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <base href="/" />
         <title>element-router test</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
         <style>
             a {
                 color:#666;
@@ -26,6 +28,7 @@
             <router-link href="/about">About</router-link>
             <router-link href="/page/234">dynamic page</router-link>
             <router-link href="/lazy">lazy</router-link>
+            <router-link href="/just-template">just template</router-link>
             <router-link href="/about/us">other about</router-link>
         </nav>
 
@@ -41,6 +44,7 @@
                 </template>
             </element-route>
             <element-route path="*" element="page-404"></element-route>
+            <element-outlet></element-outlet>
         </element-router>
 
         <script src="element-router.js" type="module"></script>
